@@ -1,0 +1,10 @@
+# CPU-only PyTorch (the default download is a huge GPU build that hosting servers cannot use)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+ultralytics==8.4.170
+streamlit==1.64.0
+numpy
+Pillow
+PyYAML
+imageio-ffmpeg
